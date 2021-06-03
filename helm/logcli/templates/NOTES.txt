@@ -1,0 +1,9 @@
+{{- if .Values.enabled }}
+LogCLI container to interact with Loki.
+Execute LogCLI statement with:
+```bash
+kubectl get pods | grep logcli
+kubectl exec -it <logcli_pod> -- logcli help
+kubectl exec -it <logcli_pod> -- logcli query '{cluster=\"CLUSTER_NAME\"} |= \"error\"'
+```
+{{- end }}

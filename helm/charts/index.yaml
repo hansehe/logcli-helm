@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  logcli:
+  - apiVersion: v2
+    appVersion: main-c90366d-amd64
+    created: "2021-06-03T10:43:49.0382778+02:00"
+    description: A Helm chart for Kubernetes to deploy a standalone logcli container
+      tool
+    digest: 4e7b4609d062bab3206b71b65246215a7a4f109a98d7a9365e4c7f6192859e8d
+    name: logcli
+    type: application
+    urls:
+    - logcli-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-03T10:43:49.0382778+02:00"

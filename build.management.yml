@@ -1,0 +1,15 @@
+test:
+    selections:
+        helm:
+            directory: helm
+            cmd: 
+                - helm template logcli
+
+publish:
+    selections:
+        helm:
+            directory: helm
+            cmd: 
+                - helm template logcli
+                - helm package logcli --destination charts
+                - helm repo index ./charts
