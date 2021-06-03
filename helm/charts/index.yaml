@@ -3,13 +3,23 @@ entries:
   logcli:
   - apiVersion: v2
     appVersion: main-c90366d-amd64
-    created: "2021-06-03T10:43:49.0382778+02:00"
+    created: "2021-06-03T10:55:00.4793631+02:00"
     description: A Helm chart for Kubernetes to deploy a standalone logcli container
       tool
-    digest: 4e7b4609d062bab3206b71b65246215a7a4f109a98d7a9365e4c7f6192859e8d
+    digest: 0e44920d6d1b1d6725fdc20287ff3c1cab7647752dec369b5fa558767f2cf290
+    home: https://github.com/hansehe/logcli-helm
+    icon: https://raw.githubusercontent.com/hansehe/logcli-helm/master/helm/Grafana_Loki_Icon.png
+    keywords:
+    - logcli
+    - loki
+    maintainers:
+    - email: hans.erik.heggem@gmail.com
+      name: hansehe
     name: logcli
+    sources:
+    - https://github.com/hansehe/logcli-helm
     type: application
     urls:
     - logcli-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-03T10:43:49.0382778+02:00"
+generated: "2021-06-03T10:55:00.4793631+02:00"

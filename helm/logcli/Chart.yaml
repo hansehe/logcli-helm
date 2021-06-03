@@ -1,6 +1,16 @@
 apiVersion: v2
 name: logcli
 description: A Helm chart for Kubernetes to deploy a standalone logcli container tool
+home: https://github.com/hansehe/logcli-helm
+icon: https://raw.githubusercontent.com/hansehe/logcli-helm/master/helm/Grafana_Loki_Icon.png
+keywords:
+- logcli
+- loki
+maintainers:
+- email: hans.erik.heggem@gmail.com
+  name: hansehe
+sources:
+- https://github.com/hansehe/logcli-helm
 
 # A chart can be either an 'application' or a 'library' chart.
 #

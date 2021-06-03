@@ -11,7 +11,7 @@ To install the chart with the release name `logcli` run:
 ```bash
 helm repo add logcli https://raw.githubusercontent.com/hansehe/logcli-helm/master/helm/charts
 helm repo update
-helm install logcli --set loki.addressOverride=<loki_url> ./logcli
+helm install logcli --set loki.addressOverride=<loki_url> logcli/logcli
 ```
 
 Execute LogCLI statement with:
