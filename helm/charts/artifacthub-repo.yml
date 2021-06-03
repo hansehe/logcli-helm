@@ -1,0 +1,5 @@
+# Artifact Hub repository metadata file
+repositoryID: 10195b51-9263-4b9c-b907-b82258eb5d74
+owners: # (optional, used to claim repository ownership)
+  - name: hansehe
+    email: hans.erik.heggem@gmail.com
